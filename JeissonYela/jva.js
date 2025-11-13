@@ -1,30 +1,60 @@
-//Calculadora de precios de productos//
-let producto1 = parseFloat(prompt("Ingresa precio del primer producto:"))
-let producto2 = parseFloat(prompt("Ingresa precio del segundo producto:"))
-let producto3 = parseFloat(prompt("Ingresa precio del tercer producto:"))
-let total = producto1 + producto2 + producto3
-alert("El total a pagar es: $" + total)
-//Calculadora de Area //
-let ancho = parseFloat(prompt("Ingresa el ancho de la pared:"))
-let alto = parseFloat(prompt("Ingrese el alto de la pared:"))
-let area = ancho * alto
-alert("El area es: "  + area + " m2")
-//Calculadora de perimetro //
-let largoPotrero = parseFloat(prompt("Ingrese el largo del potrero:"))
-let anchoPotrero = parseFloat(prompt("Ingrese el ancho del potrero:"))
-let perimetro = 2 * (largoPotrero + anchoPotrero)
-alert("El perimetro del potrero es: " + perimetro + " metros")
-//Fahrenheit a Celcius//
-let Fahrenheit = parseFloat(prompt("Ingrese los grados Fahrenheit:"))
-let Celcius = (Fahrenheit - 32)+ 5/9
-alert("La temperatura en grados Celcius es " + Celcius + " C°")
- //Calculadora de Edad//
- let AñoDeNacimiento = parseFloat(prompt("Ingrese su año de nacimiento"))
- let AñoActual = 2024
- let Edad = AñoActual - AñoDeNacimiento 
- alert("Su edad es " + Edad)
-//Saludo//
-let Nombre = (prompt("Ingrese su nombre"))
-let Apellido = (prompt("Ingrese su Apellido"))
+//--------------------------------------//
+// Calculadora de precios de productos //
+//--------------------------------------//
+let producto1 = parseFloat(prompt("Ingresa precio del primer producto:"));
+let producto2 = parseFloat(prompt("Ingresa precio del segundo producto:"));
+let producto3 = parseFloat(prompt("Ingresa precio del tercer producto:"));
+let total = producto1 + producto2 + producto3;
+alert("El total a pagar es: $" + total);
 
-alert("Bienvenido " + Nombre +" "+ Apellido + "Disfrute su visita :)")
+//--------------------------------------//
+// Calculadora de área //
+//--------------------------------------//
+let ancho = parseFloat(prompt("Ingresa el ancho de la pared (en metros):"));
+let alto = parseFloat(prompt("Ingrese el alto de la pared (en metros):"));
+let area = ancho * alto;
+alert("El área es: " + area + " m²");
+
+//--------------------------------------//
+// Calculadora de perímetro //
+//--------------------------------------//
+let largoPotrero = parseFloat(prompt("Ingrese el largo del potrero (en metros):"));
+let anchoPotrero = parseFloat(prompt("Ingrese el ancho del potrero (en metros):"));
+let perimetro = 2 * (largoPotrero + anchoPotrero);
+alert("El perímetro del potrero es: " + perimetro + " metros");
+
+//--------------------------------------//
+// Conversor de Fahrenheit a Celsius //
+//--------------------------------------//
+let Fahrenheit = parseFloat(prompt("Ingrese los grados Fahrenheit:"));
+let Celsius = (Fahrenheit - 32) * 5 / 9;
+alert("La temperatura en grados Celsius es: " + Celsius.toFixed(2) + " °C");
+
+//--------------------------------------//
+// Calculadora de edad //
+//--------------------------------------//
+let AñoDeNacimiento = parseFloat(prompt("Ingrese su año de nacimiento:"));
+let AñoActual = 2024;
+let Edad = AñoActual - AñoDeNacimiento;
+alert("Su edad es: " + Edad + " años");
+
+//--------------------------------------//
+// Saludo personalizado //
+//--------------------------------------//
+let Nombre = prompt("Ingrese su nombre:");
+let Apellido = prompt("Ingrese su apellido:");
+alert("Bienvenido " + Nombre + " " + Apellido + " Disfrute su visita :)");
+
+//--------------------------------------//
+// Calculador de promedio //
+//--------------------------------------//
+let Nota1 = parseFloat(prompt("Ingrese la nota 1:"))
+let Nota2 = parseFloat(prompt("Ingrese la nota 2:"))
+let Nota3 = parseFloat(prompt("Ingrese la nota 3:"))
+let Promedio = (Nota1 + Nota2 + Nota3) / 3
+alert("El promedio de las notas es: " + Promedio)
+
+//--------------------------------------//
+// Calculador de promedio //
+//--------------------------------------//
+
