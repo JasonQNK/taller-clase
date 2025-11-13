@@ -55,6 +55,11 @@ let Promedio = (Nota1 + Nota2 + Nota3) / 3
 alert("El promedio de las notas es: " + Promedio)
 
 //--------------------------------------//
-// Calculador de promedio //
+// Calculador de salario Semanal//
 //--------------------------------------//
+let NumeroHoras = parseFloat(prompt("Ingrese el numero de horas trabajadas"))
+let PrecioHora = 50000
 
+let Salario = NumeroHoras * PrecioHora
+
+alert ("El salario a la semana es " + Salario)
