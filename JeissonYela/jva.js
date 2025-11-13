@@ -89,3 +89,12 @@ let Descuento = PrecioProducto * 0.20
 let PrecioFinal = PrecioProducto - Descuento
 
 alert("El precio final del producto es " + PrecioFinal)
+
+//--------------------------------------//
+// Calcular IVA//
+//--------------------------------------//
+
+let PrecioBase = parseFloat(prompt("Ingrese el precio del producto"))
+let IVA = PrecioBase * 0.15
+
+alert("EL IVA es " + IVA)
