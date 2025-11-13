@@ -68,7 +68,15 @@ alert ("El salario a la semana es " + Salario)
 // Millas a Kilometros //
 //--------------------------------------//
 let Millas = parseFloat(prompt("Ingrese las millas a convertir"))
-
 let Kilometros = Millas * 1.60934
 
 alert("La conversion a Kilometros es " + Kilometros)
+
+//--------------------------------------//
+// Calculadora De Tiempo//
+//--------------------------------------//
+let Minutos = parseFloat(prompt("Ingrese los minutos a calcular"))
+
+let horas = Minutos / 60
+
+alert("La conversion a Horas es " + horas)
