@@ -76,7 +76,16 @@ alert("La conversion a Kilometros es " + Kilometros)
 // Calculadora De Tiempo//
 //--------------------------------------//
 let Minutos = parseFloat(prompt("Ingrese los minutos a calcular"))
-
 let horas = Minutos / 60
 
 alert("La conversion a Horas es " + horas)
+
+//--------------------------------------//
+// Precio Final Producto//
+//--------------------------------------//
+
+let PrecioProducto = parseFloat(prompt("Ingrese el precio del producto"))
+let Descuento = PrecioProducto * 0.20
+let PrecioFinal = PrecioProducto - Descuento
+
+alert("El precio final del producto es " + PrecioFinal)
