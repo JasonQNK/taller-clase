@@ -136,3 +136,12 @@ let tasaCambio = 3900;
 
 let cop = usd * tasaCambio;
 alert("Equivalente en pesos COP: $" + cop);
+
+//--------------------------------------//
+// Libras a Kilogramos //
+//--------------------------------------//
+let libras = parseFloat(prompt("Ingrese el peso en libras (lb):"));
+let kilogramos = libras * 0.453592;
+
+alert("El peso en kilogramos es: " + kilogramos);
+
