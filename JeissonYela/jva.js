@@ -127,3 +127,12 @@ let nombre = prompt("Ingrese su nombre:");
 let apellido = prompt("Ingrese su apellido:");
 
 alert("Nombre registrado: " + apellido + "\nApellido registrado: " + nombre);
+
+//--------------------------------------//
+// Conversor USD → COP //
+//--------------------------------------//
+let usd = parseFloat(prompt("Ingrese los dólares (USD) a convertir:"));
+let tasaCambio = 3900;
+
+let cop = usd * tasaCambio;
+alert("Equivalente en pesos COP: $" + cop);
