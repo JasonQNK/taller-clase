@@ -165,3 +165,11 @@ let refrescosPorPersona = 3;
 let totalRefrescos = asistentes * refrescosPorPersona;
 alert("Se necesitan " + totalRefrescos + " refrescos.");
 
+//--------------------------------------//
+// Velocidad promedio (distancia / tiempo) //
+//--------------------------------------//
+let distancia = parseFloat(prompt("Ingrese la distancia recorrida (en km):"));
+let tiempo = parseFloat(prompt("Ingrese el tiempo en horas:"));
+
+let velocidad = distancia / tiempo;
+alert("La velocidad promedio es: " + velocidad + " km/h");
