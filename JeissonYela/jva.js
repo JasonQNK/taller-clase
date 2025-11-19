@@ -119,3 +119,11 @@ let alturaTri = parseFloat(prompt("Ingrese la altura del triángulo:"));
 
 let areaTri = (baseTri * alturaTri) / 2;
 alert("El área del triángulo es: " + areaTri);
+
+//--------------------------------------//
+// Intercambiar nombre y apellido //
+//--------------------------------------//
+let nombre = prompt("Ingrese su nombre:");
+let apellido = prompt("Ingrese su apellido:");
+
+alert("Nombre registrado: " + apellido + "\nApellido registrado: " + nombre);
