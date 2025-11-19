@@ -156,3 +156,12 @@ let sumaDigitos = digito1 + digito2;
 
 alert("La suma de los dígitos es: " + sumaDigitos);
 
+//--------------------------------------//
+// Cálculo de refrescos para un evento //
+//--------------------------------------//
+let asistentes = parseFloat(prompt("Ingrese el número de asistentes:"));
+let refrescosPorPersona = 3;
+
+let totalRefrescos = asistentes * refrescosPorPersona;
+alert("Se necesitan " + totalRefrescos + " refrescos.");
+
