@@ -98,3 +98,24 @@ let PrecioBase = parseFloat(prompt("Ingrese el precio del producto"))
 let IVA = PrecioBase * 0.15
 
 alert("EL IVA es " + IVA)
+
+//--------------------------------------//
+// Interés simple y capital final //
+//--------------------------------------//
+let capitalInicial = parseFloat(prompt("Ingrese el capital inicial:"));
+let tasa = parseFloat(prompt("Ingrese la tasa de interés anual (ej: 5 para 5%):"));
+let años = parseFloat(prompt("Ingrese el número de años:"));
+
+let interes = capitalInicial * (tasa / 100) * años;
+let totalFinal = capitalInicial + interes;
+
+alert("El interés generado es: $" + interes + "\nEl total final es: $" + totalFinal);
+
+//--------------------------------------//
+// Área de un triángulo //
+//--------------------------------------//
+let baseTri = parseFloat(prompt("Ingrese la base del triángulo:"));
+let alturaTri = parseFloat(prompt("Ingrese la altura del triángulo:"));
+
+let areaTri = (baseTri * alturaTri) / 2;
+alert("El área del triángulo es: " + areaTri);
