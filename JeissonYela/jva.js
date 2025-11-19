@@ -145,3 +145,14 @@ let kilogramos = libras * 0.453592;
 
 alert("El peso en kilogramos es: " + kilogramos);
 
+//--------------------------------------//
+// Suma de dígitos (número de dos cifras) //
+//--------------------------------------//
+let numero = parseFloat(prompt("Ingrese un número de dos cifras:"));
+
+let digito1 = Math.floor(numero / 10);
+let digito2 = numero % 10;
+let sumaDigitos = digito1 + digito2;
+
+alert("La suma de los dígitos es: " + sumaDigitos);
+
